@@ -109,10 +109,10 @@ class _MyHomePageState extends State<MyHomePage> {
           children: [
             const Text('You have pushed the button this many times:'),
             Text(
-              'App',
+              'Hello, Djibril !',
               style: Theme.of(context).textTheme.headlineMedium,
             ),
-            //const Text("I'm developing with Flutter."),
+            const Text("I'm developing with Flutter."),
           ],
         ),
       ),
