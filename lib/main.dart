@@ -76,7 +76,9 @@ class _MyHomePageState extends State<MyHomePage> {
     // The Flutter framework has been optimized to make rerunning build methods
     // fast, so that you can just rebuild anything that needs updating rather
     // than having to individually change instances of widgets.
-    
+    final media = MediaQuery.of(context);
+    debugPrint('Largeur de l\'écran : ${media.size.width} dp');
+    debugPrint('Densité de pixels : ${media.devicePixelRatio}');
 
     return Scaffold(
       appBar: AppBar(
